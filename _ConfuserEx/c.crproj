@@ -1,0 +1,22 @@
+<project outputDir="C:\Users\Work\Desktop\Working on now\Testare Covid\Notificare Testare Angajati Proces  v2.0 - Cod sursa\obj\Release" baseDir="C:\Users\Work\Desktop\Working on now\Testare Covid\Notificare Testare Angajati Proces  v2.0 - Cod sursa\obj\Release" xmlns="http://confuser.codeplex.com">
+<rule pattern="true" />
+<module path="Notificare Testare Angajati.exe">
+<rule pattern="true">
+<protection id="anti ildasm" />
+<protection id="anti tamper" />
+<protection id="constants" />
+<protection id="ctrl flow" />
+<protection id="anti dump" />
+<protection id="anti debug" />
+<protection id="invalid metadata" />
+<protection id="ref proxy" />
+<protection id = "rename" >
+<argument name = "mode" value = "decodable" />
+<argument name = "renPublic" value = "false" />
+<argument name = "renEnum" value = "false" />
+<argument name = "renameArgs" value = "false" />
+</protection >
+</rule>
+</module>
+<probePath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5</probePath>
+</project>
